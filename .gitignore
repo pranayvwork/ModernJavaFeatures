@@ -31,3 +31,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Windows OS metadata
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
