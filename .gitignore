@@ -36,3 +36,6 @@ bin/
 Thumbs.db
 Desktop.ini
 $RECYCLE.BIN/
+# Maven
+
+target/
