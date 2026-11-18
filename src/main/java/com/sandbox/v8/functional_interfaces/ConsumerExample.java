@@ -1,7 +1,7 @@
-package main.com.sandbox.v8.functional_interfaces;
+package com.sandbox.v8.functional_interfaces;
 
-import main.com.sandbox.v8.data.Employee;
-import main.com.sandbox.v8.data.EmployeeDataBase;
+import com.sandbox.v8.data.Employee;
+import com.sandbox.v8.data.EmployeeDataBase;
 
 import java.util.List;
 import java.util.function.Consumer;

@@ -1,4 +1,4 @@
-package main.com.sandbox.v8.lambdas;
+package com.sandbox.v8.lambdas;
 
 import java.util.Comparator;
 

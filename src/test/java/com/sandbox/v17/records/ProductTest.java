@@ -1,5 +1,4 @@
-package test.com.sandbox.v17.records;
-
+package com.sandbox.v17.records;
 import main.java.com.sandbox.v17.records.Product;
 import org.junit.jupiter.api.Test;
 
@@ -26,8 +25,8 @@ class ProductTest {
     void createProduct_NameNotValid(){
         var exception = assertThrows(IllegalArgumentException.class,
                 ()-> new Product("",
-                new BigDecimal("2222.50"),
-                "ELECTRONICS"));
+                        new BigDecimal("2222.50"),
+                        "ELECTRONICS"));
         assertEquals("Name is not valid", exception.getMessage());
     }
 
@@ -43,7 +42,7 @@ class ProductTest {
     void createProduct_Type(){
         var product  = new Product("Macbook Air",
                 new BigDecimal("2222.50")
-                );
+        );
         System.out.println("product =" + product);
         assertEquals("Macbook Air", product.name());
         assertEquals("GENERAL", product.type());

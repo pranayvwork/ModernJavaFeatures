@@ -1,4 +1,4 @@
-package main.com.sandbox.v8.data;
+package com.sandbox.v8.data;
 
 import java.util.Arrays;
 import java.util.List;

@@ -14,7 +14,7 @@ Packages are organized chronologically by JDK release, with sub-packages separat
 ```text
 src/
 └── com/sandbox/
-    ├── v8/                     # Functional & Stream Foundations
+    ├── v19/                     # Functional & Stream Foundations
     │   ├── lambdas/            # Functional interfaces, variable capture, invokedynamic
     │   ├── methodrefs/         # Static, instance, and constructor references
     │   ├── streams/            # Pipelines, collectors, grouping, parallel streams

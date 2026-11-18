@@ -1,4 +1,4 @@
-package main.com.sandbox.v8.lambdas;
+package com.sandbox.v8.lambdas;
 
 public class RunnableLambdaExample {
     public static void main(String[] args) {
