@@ -5,6 +5,8 @@ import java.util.function.UnaryOperator;
 
 public class UnaryOperatorExample {
     //When input and output both are of same type, then use UnaryOperator
+    // It is best used when Transforming / Mutating / Polishing a value within its own type.
+    // A Function<T, R> is used when converting across boundaries UserEntity to UserResponse
         static UnaryOperator<String> sanitizeInput = s -> s.trim().toLowerCase();
         static UnaryOperator<Double> applyDiscount = price -> price * 0.90;
         static UnaryOperator<Double> addTax = price -> price * 1.18;
