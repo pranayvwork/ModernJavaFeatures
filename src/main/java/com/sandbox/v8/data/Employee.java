@@ -23,7 +23,9 @@ public class Employee {
         this.department = department;
         this.skills = skills;
     }
-
+    public void printListOfSkills(){
+        System.out.println(skills);
+    }
     public String getName() {
         return name;
     }
