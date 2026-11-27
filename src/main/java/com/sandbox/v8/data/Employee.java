@@ -11,7 +11,10 @@ public class Employee {
     private String department;
 
     List<String> skills = new ArrayList<>();
+    //Empty Constructor
+    public Employee(){
 
+    }
     public Employee(String name,
                     int employeeLevel,
                     double salary,
@@ -23,6 +26,11 @@ public class Employee {
         this.department = department;
         this.skills = skills;
     }
+
+    public Employee(String name) {
+        this.name = name;
+    }
+
     public void printListOfSkills(){
         System.out.println(skills);
     }
