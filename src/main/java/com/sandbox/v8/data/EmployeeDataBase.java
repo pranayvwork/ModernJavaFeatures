@@ -2,8 +2,20 @@ package com.sandbox.v8.data;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Supplier;
 
 public class EmployeeDataBase {
+    public static Supplier<Employee> employeeSupplier = ()-> {
+        return new Employee(
+                "Lilly",
+                4,
+                85000,
+                "Engineering",
+                Arrays.asList(
+                        "Communication",
+                        "Java Programming",
+                        "Architect"));
+    };
 
     /**
      * Total of 6 employees in the database.

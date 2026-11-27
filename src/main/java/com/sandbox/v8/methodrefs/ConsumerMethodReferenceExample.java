@@ -7,7 +7,9 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class ConsumerMethodReferenceExample {
+    //className::methodName usage
     static Consumer<Employee> employeeConsumer = System.out::println;
+    //className::instanceMethodName usage
     static Consumer<Employee> employeeSkillsPrinter = Employee::printListOfSkills;
 
     public static void main(String[] args) {
