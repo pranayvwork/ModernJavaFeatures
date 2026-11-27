@@ -11,6 +11,7 @@ public class SupplierExample {
 
     public static void main(String[] args) {
         //Supplier does NOT take any input.
+        //The core use case of Supplier is deferred (lazy) value generation and factory instantiation
         Supplier<Employee> employeeSupplier = () -> {
             return new Employee(
                     "Michael",
